@@ -1,6 +1,8 @@
 .container {
   width: 60%;
+  text-align: justify;
 }
+
 #head {
   padding-top: 60px;
   padding-bottom: 15px;
@@ -14,12 +16,17 @@
   border-style: solid;
 }
 
+#dp {
+  float: left;
+  padding: 0px 10px 10px 10px;
+  width: 150px;
+  height: 155px;
+}
 
 #intro {
   padding: 2%;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 10%;
   border-bottom: 2px;
   border-width: thin;
   border-color: #c6c9ce;
@@ -27,8 +34,14 @@
   border-left: 0px;
   border-right: 0px;
   border-style: solid;
+  font-size: 18px;
+  text-align: justify;
+
 }
 
+#interests {
+  font-size: 15px;
+}
 #section {
   padding-top: 1%
 }
@@ -38,7 +51,7 @@
 }
 
 .page {
-  background-color: #eff2f4
+  background-color: white;
 }
 
 .col {
@@ -59,4 +72,18 @@
   border-left: 0px;
   border-right: 0px;
   border-style: solid;
+}
+
+#last_updated {
+  font-size: 10px;
+}
+
+.quick_links {
+  font-size: 15px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.jumpto {
+  color: black;
 }
