@@ -14,6 +14,7 @@
   border-left: 0px;
   border-right: 0px;
   border-style: solid;
+  text-align: center;
 }
 
 #dp {
@@ -43,7 +44,14 @@
   font-size: 15px;
 }
 #section {
-  padding-top: 1%
+  padding-top: 1%;
+  border-bottom: 2px;
+  border-width: thin;
+  border-color: #c6c9ce;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
 }
 
 .h1 {
@@ -78,7 +86,7 @@
   font-size: 10px;
 }
 
-.quick_links {
+#quick_links {
   font-size: 15px;
   padding-top: 10px;
   text-align: center;
