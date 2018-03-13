@@ -52,6 +52,7 @@
 #interests {
   font-size: 15px;
 }
+
 #section {
   padding-top: 1%;
   border-bottom: 2px;
@@ -102,10 +103,9 @@
 }
 
 .two-col-list {
-	columns: 2;
-	-webkit-columns: 2;
-	-moz-columns: 2;
-	list-style-type: none;	
+	columns: 1;
+	-webkit-columns: 1;
+	-moz-columns: 1;	
 }
 
 .jumpto {
@@ -125,10 +125,58 @@
 .sub-head {
 	padding-top: 5px;
 	padding-bottom: 5px;
-	font-size: 19px;
-	font-weight: bold;
+	font-size: 17px;	
 }
 
 .course-name {
 	font-style: italic;
+}
+
+.fa {
+	padding: 7px;
+	color: gray;
+}
+
+#social {
+	padding: 7px;		
+}
+
+#navigation {
+	padding-top: 40px; 
+	text-align: center;		
+}
+
+.nav-icon {
+	width: 120px;		
+	vertical-align: top;
+	text-align: center;
+	display: inline-block;
+}
+
+.fa-nav {
+	width: 100px;
+	display: inline-block;
+}
+.cap {
+	display: block;
+	font-weight: bold;
+	color: gray;
+	
+}
+
+#word_cloud {
+  border-width: thin;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 2px; 
+  border-color: #c6c9ce;
+  text-align: center;
+  border-style: solid;
+}
+
+#word_cloud_img {
+    padding: 10px;
+
+  text-align: center;
 }
